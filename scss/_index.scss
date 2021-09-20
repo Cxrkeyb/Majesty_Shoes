@@ -18,7 +18,8 @@
 .container-logos{
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    width: 100%;
 }
 .container-text p{
     font-size: 18px;
@@ -62,8 +63,9 @@
     100%{background-color: transparent;height: 15px;width: 15px;}
 }
 .btn{
-    width: 90%;
+    width: 450px;
     margin-top: 10px;
+    cursor: pointer;
 }
 .btn-flex{
     display: flex;
