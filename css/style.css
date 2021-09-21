@@ -13,6 +13,9 @@ body {
 
 .container-inside {
   width: 50%; }
+  @media only screen and (min-width: 0px) and (max-width: 1239px) {
+    .container-inside {
+      width: 70%; } }
 
 .container-text {
   text-align: center;
@@ -27,6 +30,9 @@ body {
 .container-text p {
   font-size: 18px;
   margin: 0px; }
+  @media only screen and (min-width: 0px) and (max-width: 1239px) {
+    .container-text p {
+      font-size: 14px; } }
 
 .container-btn {
   display: flex;
@@ -74,6 +80,9 @@ body {
   width: 450px;
   margin-top: 10px;
   cursor: pointer; }
+  @media only screen and (min-width: 0px) and (max-width: 1239px) {
+    .btn {
+      width: 300px; } }
 
 .btn-flex {
   display: flex;
@@ -95,6 +104,9 @@ body {
 
 .title {
   font-size: 25px; }
+  @media only screen and (min-width: 0px) and (max-width: 1239px) {
+    .title {
+      font-size: 20px; } }
 
 .fab {
   font-size: 40px;
